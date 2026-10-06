@@ -1,0 +1,61 @@
+{
+  "policy": "hypothetical-literature-v1",
+  "authority": "application_configuration",
+  "target_description": "Hypothetical advanced NSCLC, single DEMO-A cohort, treatment-start OS; software demonstration only.",
+  "document_hashes": {
+    "fiction-main": "49b4d0dff3738998e32a685f8b2e5af48895719f773375ab51d5028ebe758087",
+    "fiction-conflict": "ffb82edd8367c8a039e4aad99973921621bde9b77fb0202728bbe3468299a21b",
+    "fiction-unavailable": "35282991cd718097563fcbd65c3a91224d1746e04700d2a3a38741adc10bdce9"
+  },
+  "rules": [
+    {
+      "evidence_id": "lit-2144735d290ad853dbec",
+      "target_id": "age",
+      "tolerance": {
+        "absolute": 1.2,
+        "relative": null
+      }
+    },
+    {
+      "evidence_id": "e-sex",
+      "target_id": "sex",
+      "tolerance": {
+        "absolute": 0.04,
+        "relative": null
+      }
+    },
+    {
+      "evidence_id": "e-ecog-female",
+      "target_id": "ecog-female",
+      "tolerance": {
+        "absolute": 0.05,
+        "relative": null
+      }
+    },
+    {
+      "evidence_id": "e-ecog-male",
+      "target_id": "ecog-male",
+      "tolerance": {
+        "absolute": 0.05,
+        "relative": null
+      }
+    },
+    {
+      "evidence_id": "lit-564c7544621e5035609c",
+      "target_id": "survival24",
+      "tolerance": {
+        "absolute": 0.04,
+        "relative": null
+      }
+    },
+    {
+      "evidence_id": "lit-f06797ed800cd68566ea",
+      "target_id": "median",
+      "tolerance": {
+        "absolute": 1.5,
+        "relative": null
+      }
+    }
+  ],
+  "conflict_notes": "Explicitly select main fictional report for age/OS; retain alternate and unavailable reports plus unselected user summaries. No pooling or synthesized interval."
+}

@@ -1,0 +1,41 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "af052b391b002f8ee6da98c3bf314617113ec80256acf7666543d14e17412588",
+  "context_hash": "b9870061df4e5c27e934ca003666674b83b48995dce54fbec41c5aa82ffeecd5",
+  "draft": {
+    "claims": [
+      {
+        "field": "intent",
+        "value": "hypothetical",
+        "quote": "hypothetical"
+      },
+      {
+        "field": "endpoints",
+        "value": "OS",
+        "quote": "OS"
+      },
+      {
+        "field": "endpoints",
+        "value": "PFS",
+        "quote": "PFS"
+      },
+      {
+        "field": "variables",
+        "value": "HER2",
+        "quote": "HER2"
+      },
+      {
+        "field": "ecog_values",
+        "value": "0,1,2",
+        "quote": "ECOG 0–2"
+      },
+      {
+        "field": "arms",
+        "value": "2",
+        "quote": "two arms"
+      }
+    ],
+    "additional_requirements": [],
+    "ambiguities": []
+  }
+}

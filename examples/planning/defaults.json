@@ -1,0 +1,16 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "cd9252f723e646c2d20c5cdb8fadc735d06c8b33ad741b76efb6b3a3aa5f4c32",
+  "context_hash": "b9870061df4e5c27e934ca003666674b83b48995dce54fbec41c5aa82ffeecd5",
+  "draft": {
+    "claims": [
+      {
+        "field": "intent",
+        "value": "hypothetical",
+        "quote": "hypothetical"
+      }
+    ],
+    "additional_requirements": [],
+    "ambiguities": []
+  }
+}

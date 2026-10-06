@@ -1,0 +1,218 @@
+{
+  "nature": "human_authored_mock",
+  "context_hash": "64ee3539574744b738311bfb04f1b6482dd252fdf8bd5dcb9827ca25270c845c",
+  "draft": {
+    "candidates": [
+      {
+        "document_id": "fiction-main",
+        "support": {
+          "start": 59,
+          "end": 316,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMean age: 780 months; 95% CI: 720 months to 840 months; SE: 24 months; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "mean",
+          "value": 780.0,
+          "unit": "month",
+          "category": null,
+          "at_time": null,
+          "endpoint": null,
+          "estimate_status": "available",
+          "lower_bound": null,
+          "ci_lower": 720.0,
+          "ci_upper": 840.0,
+          "confidence_level": 0.95,
+          "standard_error": 24.0,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      },
+      {
+        "document_id": "fiction-main",
+        "support": {
+          "start": 318,
+          "end": 526,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nProportion male: 60%; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "proportion",
+          "value": 0.6,
+          "unit": null,
+          "category": "male",
+          "at_time": null,
+          "endpoint": null,
+          "estimate_status": "available",
+          "lower_bound": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "confidence_level": null,
+          "standard_error": null,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      },
+      {
+        "document_id": "fiction-main",
+        "support": {
+          "start": 528,
+          "end": 771,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nOS survival at 2 years: 36%; 95% CI: 32% to 40%; SE: 2%; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "survival_probability",
+          "value": 0.36,
+          "unit": "year",
+          "category": null,
+          "at_time": 2.0,
+          "endpoint": "OS",
+          "estimate_status": "available",
+          "lower_bound": null,
+          "ci_lower": 0.32,
+          "ci_upper": 0.4,
+          "confidence_level": 0.95,
+          "standard_error": 0.02,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      },
+      {
+        "document_id": "fiction-main",
+        "support": {
+          "start": 773,
+          "end": 1013,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMedian OS: 1.5 years; 95% CI: 1.4 years to 1.6 years; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "median_survival",
+          "value": 1.5,
+          "unit": "year",
+          "category": null,
+          "at_time": null,
+          "endpoint": "OS",
+          "estimate_status": "available",
+          "lower_bound": null,
+          "ci_lower": 1.4,
+          "ci_upper": 1.6,
+          "confidence_level": 0.95,
+          "standard_error": null,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      },
+      {
+        "document_id": "fiction-conflict",
+        "support": {
+          "start": 59,
+          "end": 267,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMean age: 840 months; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "mean",
+          "value": 840.0,
+          "unit": "month",
+          "category": null,
+          "at_time": null,
+          "endpoint": null,
+          "estimate_status": "available",
+          "lower_bound": null,
+          "ci_lower": null,
+          "ci_upper": null,
+          "confidence_level": null,
+          "standard_error": null,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      },
+      {
+        "document_id": "fiction-unavailable",
+        "support": {
+          "start": 59,
+          "end": 300,
+          "quote": "Population: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMedian OS: not reached months; Lower bound: 12 months; N: 4000"
+        },
+        "scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        },
+        "statistic": {
+          "metric": "median_survival",
+          "value": null,
+          "unit": "month",
+          "category": null,
+          "at_time": null,
+          "endpoint": "OS",
+          "estimate_status": "not_reached",
+          "lower_bound": 12.0,
+          "ci_lower": null,
+          "ci_upper": null,
+          "confidence_level": null,
+          "standard_error": null,
+          "sample_size": 4000
+        },
+        "unknowns": []
+      }
+    ]
+  }
+}

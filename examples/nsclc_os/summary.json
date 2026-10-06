@@ -1,0 +1,244 @@
+[
+  {
+    "assumptions": [],
+    "uncertainties": [],
+    "extensions": {},
+    "id": "e-age",
+    "version": "1",
+    "provenance": {
+      "source_type": "user_summary",
+      "reference": "Invented NSCLC software fixture; no publication",
+      "location": "make_fixtures.py: e-age",
+      "nature": "demo",
+      "uri": null,
+      "source_version": null,
+      "content_hash": null,
+      "extraction_method": "Known baseline parameters or KM of synthetic reference rows",
+      "extracted_by": null,
+      "notes": null
+    },
+    "population": {
+      "disease": "hypothetical NSCLC",
+      "stage": "advanced",
+      "geography": null,
+      "line_of_therapy": null,
+      "description": null
+    },
+    "treatment": {
+      "setting": "single hypothetical cohort",
+      "regimen": "DEMO-A"
+    },
+    "endpoint": null,
+    "summary": {
+      "assumptions": [],
+      "uncertainties": [],
+      "extensions": {},
+      "metric": "mean",
+      "variables": [
+        "age"
+      ],
+      "conditions": [],
+      "category": null,
+      "endpoint": null,
+      "time_origin": null,
+      "unit": "month",
+      "quantile": null,
+      "at_time": null,
+      "method": null,
+      "estimand": null,
+      "custom_metric": null
+    },
+    "estimate": 780.0,
+    "estimate_status": "available",
+    "estimate_reason": null,
+    "estimate_bound": null,
+    "uncertainty": null,
+    "sample_size": 4000,
+    "relevance": null,
+    "reliability": null
+  },
+  {
+    "assumptions": [],
+    "uncertainties": [],
+    "extensions": {},
+    "id": "e-sex",
+    "version": "1",
+    "provenance": {
+      "source_type": "user_summary",
+      "reference": "Invented NSCLC software fixture; no publication",
+      "location": "make_fixtures.py: e-sex",
+      "nature": "demo",
+      "uri": null,
+      "source_version": null,
+      "content_hash": null,
+      "extraction_method": "Known baseline parameters or KM of synthetic reference rows",
+      "extracted_by": null,
+      "notes": null
+    },
+    "population": {
+      "disease": "hypothetical NSCLC",
+      "stage": "advanced",
+      "geography": null,
+      "line_of_therapy": null,
+      "description": null
+    },
+    "treatment": {
+      "setting": "single hypothetical cohort",
+      "regimen": "DEMO-A"
+    },
+    "endpoint": null,
+    "summary": {
+      "assumptions": [],
+      "uncertainties": [],
+      "extensions": {},
+      "metric": "proportion",
+      "variables": [
+        "sex"
+      ],
+      "conditions": [],
+      "category": "male",
+      "endpoint": null,
+      "time_origin": null,
+      "unit": null,
+      "quantile": null,
+      "at_time": null,
+      "method": null,
+      "estimand": null,
+      "custom_metric": null
+    },
+    "estimate": 0.6,
+    "estimate_status": "available",
+    "estimate_reason": null,
+    "estimate_bound": null,
+    "uncertainty": null,
+    "sample_size": 4000,
+    "relevance": null,
+    "reliability": null
+  },
+  {
+    "assumptions": [],
+    "uncertainties": [],
+    "extensions": {},
+    "id": "e-survival24",
+    "version": "1",
+    "provenance": {
+      "source_type": "user_summary",
+      "reference": "Invented NSCLC software fixture; no publication",
+      "location": "make_fixtures.py: e-survival24",
+      "nature": "demo",
+      "uri": null,
+      "source_version": null,
+      "content_hash": null,
+      "extraction_method": "Known baseline parameters or KM of synthetic reference rows",
+      "extracted_by": null,
+      "notes": null
+    },
+    "population": {
+      "disease": "hypothetical NSCLC",
+      "stage": "advanced",
+      "geography": null,
+      "line_of_therapy": null,
+      "description": null
+    },
+    "treatment": {
+      "setting": "single hypothetical cohort",
+      "regimen": "DEMO-A"
+    },
+    "endpoint": {
+      "name": "OS",
+      "time_origin": "treatment_start",
+      "unit": "year"
+    },
+    "summary": {
+      "assumptions": [],
+      "uncertainties": [],
+      "extensions": {},
+      "metric": "survival_probability",
+      "variables": [
+        "os_time",
+        "os_event"
+      ],
+      "conditions": [],
+      "category": null,
+      "endpoint": "OS",
+      "time_origin": "treatment_start",
+      "unit": "year",
+      "quantile": null,
+      "at_time": 2,
+      "method": null,
+      "estimand": null,
+      "custom_metric": null
+    },
+    "estimate": 0.359442680936751,
+    "estimate_status": "available",
+    "estimate_reason": null,
+    "estimate_bound": null,
+    "uncertainty": null,
+    "sample_size": 4000,
+    "relevance": null,
+    "reliability": null
+  },
+  {
+    "assumptions": [],
+    "uncertainties": [],
+    "extensions": {},
+    "id": "e-median",
+    "version": "1",
+    "provenance": {
+      "source_type": "user_summary",
+      "reference": "Invented NSCLC software fixture; no publication",
+      "location": "make_fixtures.py: e-median",
+      "nature": "demo",
+      "uri": null,
+      "source_version": null,
+      "content_hash": null,
+      "extraction_method": "Known baseline parameters or KM of synthetic reference rows",
+      "extracted_by": null,
+      "notes": null
+    },
+    "population": {
+      "disease": "hypothetical NSCLC",
+      "stage": "advanced",
+      "geography": null,
+      "line_of_therapy": null,
+      "description": null
+    },
+    "treatment": {
+      "setting": "single hypothetical cohort",
+      "regimen": "DEMO-A"
+    },
+    "endpoint": {
+      "name": "OS",
+      "time_origin": "treatment_start",
+      "unit": "year"
+    },
+    "summary": {
+      "assumptions": [],
+      "uncertainties": [],
+      "extensions": {},
+      "metric": "median_survival",
+      "variables": [
+        "os_time",
+        "os_event"
+      ],
+      "conditions": [],
+      "category": null,
+      "endpoint": "OS",
+      "time_origin": "treatment_start",
+      "unit": "year",
+      "quantile": null,
+      "at_time": null,
+      "method": null,
+      "estimand": null,
+      "custom_metric": null
+    },
+    "estimate": 1.4789586034617688,
+    "estimate_status": "available",
+    "estimate_reason": null,
+    "estimate_bound": null,
+    "uncertainty": null,
+    "sample_size": 4000,
+    "relevance": null,
+    "reliability": null
+  }
+]

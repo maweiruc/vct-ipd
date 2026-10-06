@@ -1,0 +1,28 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "c2c439d737d4591244d377b3fc86947f1f7ae51c19b383437b55e16a92f6441d",
+  "context_hash": "b9870061df4e5c27e934ca003666674b83b48995dce54fbec41c5aa82ffeecd5",
+  "draft": {
+    "claims": [
+      {
+        "field": "intent",
+        "value": "hypothetical",
+        "quote": "hypothetical"
+      },
+      {
+        "field": "disease",
+        "value": "NSCLC",
+        "quote": "NSCLC"
+      },
+      {
+        "field": "follow_up_kind",
+        "value": "staggered_enrollment",
+        "quote": "12 months of recruitment plus 24 months additional follow-up"
+      }
+    ],
+    "additional_requirements": [],
+    "ambiguities": [
+      "Enrollment window and common cutoff require an unsupported observation process."
+    ]
+  }
+}

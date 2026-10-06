@@ -1,0 +1,18 @@
+{
+  "target_description": "Find reported median OS for Chinese patients with gastric cancer receiving DRUG-X.",
+  "statistics": [
+    "median OS"
+  ],
+  "queries": [
+    "gastric cancer China DRUG-X median overall survival"
+  ],
+  "allowed_sources": [
+    "local",
+    "europe_pmc"
+  ],
+  "max_results": 5,
+  "max_pages": 1,
+  "max_documents": 5,
+  "max_bytes": 200000,
+  "max_extraction_calls": 1
+}

@@ -1,0 +1,7 @@
+include LICENSE README.md pyproject.toml .gitignore
+recursive-include examples *.json *.csv *.txt *.md
+prune runs
+prune build
+prune dist
+prune .venv
+global-exclude __pycache__ *.py[cod] .DS_Store .env .env.*

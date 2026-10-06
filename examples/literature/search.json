@@ -1,0 +1,107 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "c76ecd3f316341583774cd89917c2681da0098fb5dc4cc26e605ffcc1463bc58",
+  "response_hash": "e5be4547989cc6286260ada632293a4662bf874b5899baf9201a8263913d61f9",
+  "response": {
+    "status": "documents",
+    "documents": [
+      {
+        "id": "fiction-main",
+        "source": "local",
+        "source_key": "local:fiction-main",
+        "title": "fiction-main — original fictional test text; no publication",
+        "year": null,
+        "doi": null,
+        "uri": "fixture://fiction-main.md",
+        "nature": "demo",
+        "access_scope": "local_text",
+        "retrieved_at": "2026-10-06T10:08:34.302887+00:00",
+        "text": "# Fictional software-test cohort. Not a real publication.\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMean age: 780 months; 95% CI: 720 months to 840 months; SE: 24 months; N: 4000\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nProportion male: 60%; N: 4000\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nOS survival at 2 years: 36%; 95% CI: 32% to 40%; SE: 2%; N: 4000\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMedian OS: 1.5 years; 95% CI: 1.4 years to 1.6 years; N: 4000",
+        "content_hash": "49b4d0dff3738998e32a685f8b2e5af48895719f773375ab51d5028ebe758087",
+        "raw_hash": "49b4d0dff3738998e32a685f8b2e5af48895719f773375ab51d5028ebe758087",
+        "text_version": "utf8-lf-v1",
+        "rights": "Original fictional text authored for this software test; no real citation or third-party article.",
+        "cache_text": true,
+        "registered_scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        }
+      },
+      {
+        "id": "fiction-conflict",
+        "source": "local",
+        "source_key": "local:fiction-conflict",
+        "title": "fiction-conflict — original fictional test text; no publication",
+        "year": null,
+        "doi": null,
+        "uri": "fixture://fiction-conflict.md",
+        "nature": "demo",
+        "access_scope": "local_text",
+        "retrieved_at": "2026-10-06T10:08:34.303023+00:00",
+        "text": "# Fictional software-test cohort. Not a real publication.\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMean age: 840 months; N: 4000",
+        "content_hash": "ffb82edd8367c8a039e4aad99973921621bde9b77fb0202728bbe3468299a21b",
+        "raw_hash": "ffb82edd8367c8a039e4aad99973921621bde9b77fb0202728bbe3468299a21b",
+        "text_version": "utf8-lf-v1",
+        "rights": "Original fictional text authored for this software test; no real citation or third-party article.",
+        "cache_text": true,
+        "registered_scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        }
+      },
+      {
+        "id": "fiction-unavailable",
+        "source": "local",
+        "source_key": "local:fiction-unavailable",
+        "title": "fiction-unavailable — original fictional test text; no publication",
+        "year": null,
+        "doi": null,
+        "uri": "fixture://fiction-unavailable.md",
+        "nature": "demo",
+        "access_scope": "local_text",
+        "retrieved_at": "2026-10-06T10:08:34.303085+00:00",
+        "text": "# Fictional software-test cohort. Not a real publication.\n\nPopulation: hypothetical NSCLC; Stage: advanced; Geography: ?; Line: ?; Regimen: DEMO-A; Setting: single hypothetical cohort; Endpoint: OS; Origin: treatment_start; Subgroup: all\nMedian OS: not reached months; Lower bound: 12 months; N: 4000",
+        "content_hash": "35282991cd718097563fcbd65c3a91224d1746e04700d2a3a38741adc10bdce9",
+        "raw_hash": "35282991cd718097563fcbd65c3a91224d1746e04700d2a3a38741adc10bdce9",
+        "text_version": "utf8-lf-v1",
+        "rights": "Original fictional text authored for this software test; no real citation or third-party article.",
+        "cache_text": true,
+        "registered_scope": {
+          "disease": "hypothetical NSCLC",
+          "stage": "advanced",
+          "geography": null,
+          "line_of_therapy": null,
+          "regimen": "DEMO-A",
+          "setting": "single hypothetical cohort",
+          "endpoint": "OS",
+          "origin": "treatment_start",
+          "subgroup": "all"
+        }
+      }
+    ],
+    "searches": [
+      {
+        "selection": "explicit_local_manifest",
+        "manifest_hash": "27128becc9b0f46d3224a60e2fc9b6da0dea664d1971302cdc46d80934ea397b",
+        "request_hash": "c76ecd3f316341583774cd89917c2681da0098fb5dc4cc26e605ffcc1463bc58"
+      }
+    ],
+    "diagnostics": [],
+    "calls": 0,
+    "mode": "local"
+  }
+}

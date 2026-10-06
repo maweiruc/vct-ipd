@@ -1,0 +1,14 @@
+{
+  "version": "local-documents-v1",
+  "documents": [
+    {
+      "id": "ambiguous-fiction",
+      "file": "ambiguous.md",
+      "sha256": "bde0c13b7f4df66d0cc6c94db57402904b82432c37380748b50650bcd75063d6",
+      "title": "Fictional incomplete abstract for a real-scope question; not clinical evidence",
+      "nature": "demo",
+      "rights": "Original fictional test text, not a real study or publication.",
+      "registered_scope": null
+    }
+  ]
+}

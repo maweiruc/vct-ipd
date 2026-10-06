@@ -1,0 +1,1 @@
+Generate 1600 hypothetical NSCLC patients with overall survival, fixed per-patient follow-up of 30 months, and a budget of 101 states.

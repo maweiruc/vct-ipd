@@ -1,0 +1,31 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "b160f6f9bde98c6613f0c3307a7f32e38b147f040996b2e6f786d0efd00d6047",
+  "context_hash": "b9870061df4e5c27e934ca003666674b83b48995dce54fbec41c5aa82ffeecd5",
+  "draft": {
+    "claims": [
+      {
+        "field": "intent",
+        "value": "clinical",
+        "quote": "clinical"
+      },
+      {
+        "field": "disease",
+        "value": "gastric cancer",
+        "quote": "gastric cancer"
+      },
+      {
+        "field": "geography",
+        "value": "China",
+        "quote": "China"
+      },
+      {
+        "field": "regimen",
+        "value": "DRUG-X",
+        "quote": "DRUG-X"
+      }
+    ],
+    "additional_requirements": [],
+    "ambiguities": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "nature": "human_authored_mock",
+  "request_hash": "fd8f3e47bcf282f57a50b9c8545efe87ad8b90cf20dcd9dd8c2e89a4d6018a93",
+  "context_hash": "b9870061df4e5c27e934ca003666674b83b48995dce54fbec41c5aa82ffeecd5",
+  "draft": {
+    "claims": [
+      {
+        "field": "intent",
+        "value": "hypothetical",
+        "quote": "hypothetical"
+      },
+      {
+        "field": "disease",
+        "value": "NSCLC",
+        "quote": "NSCLC"
+      },
+      {
+        "field": "endpoints",
+        "value": "overall survival",
+        "quote": "overall survival"
+      },
+      {
+        "field": "sample_size",
+        "value": "1600",
+        "quote": "1600"
+      },
+      {
+        "field": "follow_up_kind",
+        "value": "fixed per-patient",
+        "quote": "fixed per-patient"
+      },
+      {
+        "field": "follow_up_duration",
+        "value": "30",
+        "quote": "30 months"
+      },
+      {
+        "field": "follow_up_unit",
+        "value": "months",
+        "quote": "months"
+      },
+      {
+        "field": "budget",
+        "value": "2",
+        "quote": "2 states"
+      }
+    ],
+    "additional_requirements": [],
+    "ambiguities": []
+  }
+}
